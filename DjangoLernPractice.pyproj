@@ -39,6 +39,9 @@
     <Compile Include="manage.py" />
     <Compile Include="Tittles\admin.py" />
     <Compile Include="Tittles\apps.py" />
+    <Compile Include="Tittles\forms.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Tittles\migrations\__init__.py" />
     <Compile Include="Tittles\models.py" />
     <Compile Include="Tittles\tests.py" />
@@ -51,6 +54,7 @@
     <Content Include="DjangoLernPractice\__pycache__\wsgi.cpython-313.pyc" />
     <Content Include="DjangoLernPractice\__pycache__\__init__.cpython-313.pyc" />
     <Content Include="requirements.txt" />
+    <Content Include="Tittles\static\css\styles.css" />
     <Content Include="Tittles\templates\index.html" />
     <Content Include="Tittles\templates\BasePage.html" />
   </ItemGroup>
@@ -59,6 +63,8 @@
     <Folder Include="DjangoLernPractice\__pycache__\" />
     <Folder Include="Tittles\" />
     <Folder Include="Tittles\migrations\" />
+    <Folder Include="Tittles\static\" />
+    <Folder Include="Tittles\static\css\" />
     <Folder Include="Tittles\templates\" />
   </ItemGroup>
   <ItemGroup>

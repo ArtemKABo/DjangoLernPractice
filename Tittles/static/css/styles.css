@@ -1,0 +1,70 @@
+body {
+    background-color: lightcyan;
+    /*text-align: center;*/
+}
+
+header{
+    height: 100px;
+    background-color: #17e794;
+}
+
+.navbar {
+    padding-top: 30px;
+    margin: auto;
+    width: 90%;
+}
+
+    .navbar a {
+        width: 400px;
+        height: 30px;
+        margin-inline: 15px;
+        background-color: #33e2ae;
+        font-size: 27px;
+        font-weight: bold;
+    }
+
+.container {
+    font-weight: bold;
+    width: 90%;
+    height: 650px;
+    margin:  auto;
+}
+
+.container h3{
+    text-align: center;
+}
+
+.floor {
+    display: flex;
+    height: 200px;
+}
+
+.introduce {
+    width: 30%;
+}
+
+.ffContext {
+    width: 70%;
+    padding-top: 90px;
+}
+
+.input{
+    margin-bottom: 10px;
+}
+
+.button {
+    width: 100px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.contentbox {
+    background-image: radial-gradient( ellipse, whitesmoke 30%, lightcyan 70%);
+    text-align: center;
+   /* color: whitesmoke*/
+}
+
+footer div {
+    width: 90%;
+    margin-left: 5%;
+}

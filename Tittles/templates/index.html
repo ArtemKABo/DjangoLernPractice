@@ -1,8 +1,24 @@
 {% extends "BasePage.html" %}
 {% block title %}Главная{% endblock title %}
-{% block header %}Стартовая страница{% endblock header %}
+{% block header %}Главная страница{% endblock header %}
 
 {% block content %}
-<p>Телефон: +12345677890</p>
-<p>Email: admin@admin.com</p>
-{% endblock content %}
+<div class="floor">
+    <div class="introduce">
+        <h3>Добро пожаловать {{person}} на наш сайт</h3>
+        <form method="post" action="">
+            {% csrf_token %}
+            <p>Ваше имя: </p>
+            <input class="input" name="name" />
+            <input class="button" type="submit" value="Отправить" />
+        </form>
+    </div>
+    <div class="contentbox ffContext">{{person}} наверно тут будет контент</div>
+</div>
+<div class="floor contentbox">
+
+</div>
+<div class="floor contentbox">
+
+</div>
+    {% endblock content %}
